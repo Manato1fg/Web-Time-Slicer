@@ -4,6 +4,21 @@
 This Python application offers a novel approach to visualizing web content by turning website scrolling into a four-dimensional experience. It conceptualizes a two-dimensional website in a three-dimensional space composed of the x, y, and time (t) axes. The app creates dynamic, slit-scan style videos by 'slicing' through this space.
 It supports <b>only</b> Windows right now.
 
+## Example
+
+
+https://github.com/Manato1fg/Web-Time-Slicer/assets/21980635/e784e47f-318c-4163-bb30-63989f54e78b
+
+
+
+https://github.com/Manato1fg/Web-Time-Slicer/assets/21980635/4e85bfc8-fdc8-4243-92a1-75f863ef27b2
+
+
+
+https://github.com/Manato1fg/Web-Time-Slicer/assets/21980635/3e67c3db-df18-46c6-aab0-98b9c5bb95b1
+
+
+
 ## Installation Instructions
 To set up this application, follow these steps:
 1. **Install Required Packages**: Install the necessary Python packages listed in the `requirements.txt` file using the command:
