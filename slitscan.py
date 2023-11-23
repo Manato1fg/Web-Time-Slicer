@@ -39,10 +39,10 @@ if len(files) == 0:
     print('No image files found.')
     sys.exit(1)
 
-args = argparse.ArgumentParser()
+args = argparse.ArgumentParser(description="a script designed to perform slit-scan processing on images stored in the 'image' folder. It sequentially processes each image, creating a slit-scan effect.")
 
 args.add_argument('-w', '--width', help='width of the window', default=WIDTH)
-args.add_argument('-a', '--aspect', help='aspect ratio of the window (float or fraction style)', default=WINDOW_ASPECT)
+args.add_argument('-a', '--aspect', help='aspect ratio of the window (float or fraction style) e.g. 16/9', default=WINDOW_ASPECT)
 args.add_argument('-f', '--fps', help='frame rate', default=FRAME_RATE)
 args.add_argument('-l', '--length', help='movie length (sec)', default=MOVIE_LENGTH)
 args = args.parse_args()

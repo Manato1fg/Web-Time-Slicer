@@ -19,8 +19,8 @@ if __name__ == "__main__":
     if not os.path.isdir("video"):
         print("video folder not found.")
         exit()
-    args = argparse.ArgumentParser()
-    args.add_argument('-f', '--force', help='force conversion', action='store_true', default=False)
+    args = argparse.ArgumentParser(description="a script that converts videos in the 'video' folder to a Twitter-compatible format, H.264 (AAC) at 40fps or less, and saves them with a new extension")
+    args.add_argument('-f', '--force', help="force conversion regardless, overwriting any existing '.twitter.mp4' files. default: False", action='store_true', default=False)
     args = args.parse_args()
     subfolders = [f.path for f in os.scandir("video") if f.is_dir()]
     for subfolder in subfolders:

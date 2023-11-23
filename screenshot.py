@@ -31,7 +31,7 @@ def screenshot_full(driver, filename, timeout=30):
 
 if __name__ == '__main__':
     os.makedirs(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'image'), exist_ok=True)
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(description='script allows you to capture screenshots of specified URLs.')
     parser.add_argument('-u', '--url', help='url to take a screenshot', required=True)
     parser.add_argument('-o', '--output', help='output file name. if suffix is not specified, ".png" is added.', default='screen.png')
     parser.add_argument('-t', '--timeout', help='timeout (sec)', default=30)
