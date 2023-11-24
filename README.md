@@ -4,20 +4,6 @@
 This Python application offers a novel approach to visualizing web content by turning website scrolling into a four-dimensional experience. It conceptualizes a two-dimensional website in a three-dimensional space composed of the x, y, and time (t) axes. The app creates dynamic, slit-scan style videos by 'slicing' through this space.
 It supports <b>only</b> Windows right now.
 
-## Example
-
-
-https://github.com/Manato1fg/Web-Time-Slicer/assets/21980635/e784e47f-318c-4163-bb30-63989f54e78b
-
-
-
-https://github.com/Manato1fg/Web-Time-Slicer/assets/21980635/4e85bfc8-fdc8-4243-92a1-75f863ef27b2
-
-
-
-https://github.com/Manato1fg/Web-Time-Slicer/assets/21980635/3e67c3db-df18-46c6-aab0-98b9c5bb95b1
-
-
 
 ## Installation Instructions
 To set up this application, follow these steps:
@@ -56,3 +42,37 @@ Converts videos in the 'video' folder to a Twitter-compatible format (H.264 AAC 
 
 ## LICENSE
 MIT
+
+## Showcase
+### T
+  
+https://github.com/Manato1fg/Web-Time-Slicer/assets/21980635/7ee0ac5a-6ed8-4723-8d6d-b0800e5b984a
+
+### X
+
+https://github.com/Manato1fg/Web-Time-Slicer/assets/21980635/2c64cb64-01fe-4a93-b471-d05b3377585f
+
+### Y
+ 
+https://github.com/Manato1fg/Web-Time-Slicer/assets/21980635/67e2f50b-5a50-42f7-bbbe-9f4b121a5111
+
+### Yaw
+
+https://github.com/Manato1fg/Web-Time-Slicer/assets/21980635/84b77890-2bdb-488e-bb87-22b63516573e
+
+### Pitch
+
+https://github.com/Manato1fg/Web-Time-Slicer/assets/21980635/c9f0a849-47d1-4a96-8d65-06500dc9fbf3
+
+### Roll
+
+https://github.com/Manato1fg/Web-Time-Slicer/assets/21980635/f0d9dbbb-9ac1-4de8-bdcf-ba91b6c3b4c8
+
+### Time Wave
+
+https://github.com/Manato1fg/Web-Time-Slicer/assets/21980635/f22d1229-891f-4f1c-9d38-e04829d99d39
+
+### Sin 
+
+https://github.com/Manato1fg/Web-Time-Slicer/assets/21980635/78ac853e-9284-4fe8-b00b-a2bd4734188b
+
