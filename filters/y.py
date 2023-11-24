@@ -21,6 +21,8 @@ class Y(Filter):
         for i in range(frames):
             k = int(i / frames * box.shape[0])
             im = box[k, :, :, :]
+            if im.shape[1] == 3:
+                im = im.transpose(0, 2, 1)
             im = cv2.resize(im, box.window)
             out.write(im)
         out.release()
