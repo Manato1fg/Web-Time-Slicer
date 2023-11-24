@@ -76,3 +76,9 @@ https://github.com/Manato1fg/Web-Time-Slicer/assets/21980635/f22d1229-891f-4f1c-
 
 https://github.com/Manato1fg/Web-Time-Slicer/assets/21980635/78ac853e-9284-4fe8-b00b-a2bd4734188b
 
+### Tile
+
+https://github.com/Manato1fg/Web-Time-Slicer/assets/21980635/51d8933c-7fee-4d6e-a45b-c96dd2974cb0
+
+
+
