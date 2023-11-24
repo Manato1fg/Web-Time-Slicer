@@ -6,6 +6,7 @@ from .pitch import Pitch
 from .roll import Roll
 from .time_wave import TimeWave
 from .sin import Sin
+from .tile import Tile
 
 def get_all_filter_names():
     return [
@@ -16,7 +17,8 @@ def get_all_filter_names():
         Pitch.get_name(),
         Roll.get_name(),
         TimeWave.get_name(),
-        Sin.get_name()
+        Sin.get_name(),
+        Tile.get_name()
     ]
 
 dict_filter = {
@@ -27,7 +29,8 @@ dict_filter = {
     Pitch.get_name(): Pitch,
     Roll.get_name(): Roll,
     TimeWave.get_name(): TimeWave,
-    Sin.get_name(): Sin
+    Sin.get_name(): Sin,
+    Tile.get_name(): Tile
 }
 
 def get_filter_by_name(name: str):
