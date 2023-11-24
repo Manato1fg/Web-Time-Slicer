@@ -38,7 +38,15 @@ Captures screenshots of specified URLs. The screenshots are saved in the 'image'
 ### `slitscan.py`
 Processes images from the 'image' folder, creating slit-scan videos. These videos are saved in corresponding folders within the 'video' folder.
 
-`python slitscan.py [-w WIDTH] [-a ASPECT] [-f FPS] [-l LENGTH]`
+`slitscan.py [-h] [-w WIDTH] [-a ASPECT] [-f FPS] [-l LENGTH] [-fi FILTER] [--fast]`
+
+- `-fi`: if no filter name is given, it applies all available filters.  
+- `--fast` mode demands high memory usage.
+
+Example:<br />
+```Shell
+python slitscan.py -w 800 -a 4/3 -f 60 -fi pitch --fast
+```
 
 
 ### `convert_video.py`
